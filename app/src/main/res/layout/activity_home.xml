@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alke Wallet"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="23sp"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:id="@+id/goToProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir a Perfil"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/goToSendMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Dinero"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/goToRequestMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Dinero"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
